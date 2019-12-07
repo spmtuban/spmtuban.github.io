@@ -720,7 +720,7 @@
             }
           },
           "_name": "slider1",
-          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders &amp; Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" class=\"full-screen\" mbr-carousel-embedded=\"\"></div>\n\n</section>",
+          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" class=\"full-screen\" mbr-carousel-embedded></div>\n\n</section>",
           "_cid": "rJNQO2VNUK",
           "_anchor": "slider1-2",
           "_protectedParams": [
@@ -732,14 +732,14 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": false,
-            "slides__autoplayInterval": 4000,
-            "slides__showBullets": true,
+            "slides__autoplay": true,
+            "slides__autoplayInterval": "3000",
+            "slides__showBullets": false,
             "slides": [
               {
-                "image": "@THEME_PATH@/components/_images/background1.jpg",
-                "active": true,
-                "showButtons": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1277.jpg",
+                "active": false,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
@@ -753,10 +753,11 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Di Official Website SMK Pelayaran Muhammadiyah Tuban",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.2"
               },
               {
-                "image": "@THEME_PATH@/components/_images/background2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1314.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -775,9 +776,9 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@THEME_PATH@/components/_images/background3.jpg",
-                "active": false,
-                "showButtons": true,
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1155.jpg",
+                "active": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
